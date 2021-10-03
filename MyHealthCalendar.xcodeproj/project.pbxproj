@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CC378D2709CA5F009C20B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CC378C2709CA5F009C20B0 /* Assets.xcassets */; };
+		05CC37902709CA5F009C20B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05CC378E2709CA5F009C20B0 /* MainMenu.xib */; };
+		05CC37932709CA5F009C20B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37922709CA5F009C20B0 /* main.m */; };
+		05CC37D12709CB3D009C20B0 /* NSBezierPath+MyBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC379B2709CB3C009C20B0 /* NSBezierPath+MyBezierPath.m */; };
+		05CC37D22709CB3D009C20B0 /* NSColor+MyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC379C2709CB3C009C20B0 /* NSColor+MyColor.m */; };
+		05CC37D32709CB3D009C20B0 /* CAShapeLayer+MyShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37A12709CB3C009C20B0 /* CAShapeLayer+MyShapeLayer.m */; };
+		05CC37D42709CB3D009C20B0 /* NSTextField+MyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37A22709CB3C009C20B0 /* NSTextField+MyTextField.m */; };
+		05CC37D52709CB3D009C20B0 /* BPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37A42709CB3C009C20B0 /* BPButton.m */; };
+		05CC37D62709CB3D009C20B0 /* UAAcceptButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37A52709CB3C009C20B0 /* UAAcceptButton.m */; };
+		05CC37D72709CB3D009C20B0 /* BPValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37A72709CB3C009C20B0 /* BPValueView.m */; };
+		05CC37D82709CB3D009C20B0 /* WinDataEntry.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05CC37AB2709CB3C009C20B0 /* WinDataEntry.xib */; };
+		05CC37DA2709CB3D009C20B0 /* WinDataEntryCntrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37AE2709CB3C009C20B0 /* WinDataEntryCntrl.m */; };
+		05CC37DB2709CB3D009C20B0 /* UACalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37B02709CB3C009C20B0 /* UACalendar.m */; };
+		05CC37DC2709CB3D009C20B0 /* UAItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37B42709CB3C009C20B0 /* UAItemView.m */; };
+		05CC37DD2709CB3D009C20B0 /* UADateMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37B62709CB3C009C20B0 /* UADateMgr.m */; };
+		05CC37DE2709CB3D009C20B0 /* UAServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37B72709CB3C009C20B0 /* UAServerRequest.m */; };
+		05CC37DF2709CB3D009C20B0 /* holiday.json in Resources */ = {isa = PBXBuildFile; fileRef = 05CC37B82709CB3C009C20B0 /* holiday.json */; };
+		05CC37E12709CB3D009C20B0 /* UAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37BB2709CB3C009C20B0 /* UAView.m */; };
+		05CC37E22709CB3D009C20B0 /* UATextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37BD2709CB3C009C20B0 /* UATextAttribute.m */; };
+		05CC37E32709CB3D009C20B0 /* UADate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37C02709CB3C009C20B0 /* UADate.m */; };
+		05CC37E42709CB3D009C20B0 /* FlippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37C32709CB3C009C20B0 /* FlippedView.m */; };
+		05CC37E52709CB3D009C20B0 /* RERecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37C42709CB3C009C20B0 /* RERecord.m */; };
+		05CC37E62709CB3D009C20B0 /* WinResultCntrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37C52709CB3C009C20B0 /* WinResultCntrl.m */; };
+		05CC37E72709CB3D009C20B0 /* REHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37C62709CB3C009C20B0 /* REHeaderView.m */; };
+		05CC37E82709CB3D009C20B0 /* WinResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05CC37C72709CB3C009C20B0 /* WinResult.xib */; };
+		05CC37E92709CB3D009C20B0 /* REMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37CA2709CB3C009C20B0 /* REMainView.m */; };
+		05CC37EA2709CB3D009C20B0 /* REItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37CF2709CB3C009C20B0 /* REItemView.m */; };
+		05CC37ED2709CBE5009C20B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC37EC2709CBE5009C20B0 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05CC37862709CA5E009C20B0 /* MyHealthCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHealthCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CC378C2709CA5F009C20B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05CC378F2709CA5F009C20B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05CC37912709CA5F009C20B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CC37922709CA5F009C20B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05CC37942709CA5F009C20B0 /* MyHealthCalendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyHealthCalendar.entitlements; sourceTree = "<group>"; };
+		05CC379B2709CB3C009C20B0 /* NSBezierPath+MyBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+MyBezierPath.m"; sourceTree = "<group>"; };
+		05CC379C2709CB3C009C20B0 /* NSColor+MyColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+MyColor.m"; sourceTree = "<group>"; };
+		05CC379D2709CB3C009C20B0 /* NSTextField+MyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextField+MyTextField.h"; sourceTree = "<group>"; };
+		05CC379E2709CB3C009C20B0 /* CAShapeLayer+MyShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+MyShapeLayer.h"; sourceTree = "<group>"; };
+		05CC379F2709CB3C009C20B0 /* NSBezierPath+MyBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+MyBezierPath.h"; sourceTree = "<group>"; };
+		05CC37A02709CB3C009C20B0 /* NSColor+MyColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+MyColor.h"; sourceTree = "<group>"; };
+		05CC37A12709CB3C009C20B0 /* CAShapeLayer+MyShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+MyShapeLayer.m"; sourceTree = "<group>"; };
+		05CC37A22709CB3C009C20B0 /* NSTextField+MyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextField+MyTextField.m"; sourceTree = "<group>"; };
+		05CC37A42709CB3C009C20B0 /* BPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPButton.m; sourceTree = "<group>"; };
+		05CC37A52709CB3C009C20B0 /* UAAcceptButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAAcceptButton.m; sourceTree = "<group>"; };
+		05CC37A62709CB3C009C20B0 /* WinDataEntryCntrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinDataEntryCntrl.h; sourceTree = "<group>"; };
+		05CC37A72709CB3C009C20B0 /* BPValueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPValueView.m; sourceTree = "<group>"; };
+		05CC37A92709CB3C009C20B0 /* BPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPButton.h; sourceTree = "<group>"; };
+		05CC37AA2709CB3C009C20B0 /* UAAcceptButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAcceptButton.h; sourceTree = "<group>"; };
+		05CC37AB2709CB3C009C20B0 /* WinDataEntry.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinDataEntry.xib; sourceTree = "<group>"; };
+		05CC37AD2709CB3C009C20B0 /* BPValueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPValueView.h; sourceTree = "<group>"; };
+		05CC37AE2709CB3C009C20B0 /* WinDataEntryCntrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinDataEntryCntrl.m; sourceTree = "<group>"; };
+		05CC37B02709CB3C009C20B0 /* UACalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UACalendar.m; sourceTree = "<group>"; };
+		05CC37B12709CB3C009C20B0 /* UAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAView.h; sourceTree = "<group>"; };
+		05CC37B32709CB3C009C20B0 /* UADate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADate.h; sourceTree = "<group>"; };
+		05CC37B42709CB3C009C20B0 /* UAItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAItemView.m; sourceTree = "<group>"; };
+		05CC37B52709CB3C009C20B0 /* UATextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UATextAttribute.h; sourceTree = "<group>"; };
+		05CC37B62709CB3C009C20B0 /* UADateMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UADateMgr.m; sourceTree = "<group>"; };
+		05CC37B72709CB3C009C20B0 /* UAServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAServerRequest.m; sourceTree = "<group>"; };
+		05CC37B82709CB3C009C20B0 /* holiday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = holiday.json; sourceTree = "<group>"; };
+		05CC37B92709CB3C009C20B0 /* UAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAConstants.h; sourceTree = "<group>"; };
+		05CC37BB2709CB3C009C20B0 /* UAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAView.m; sourceTree = "<group>"; };
+		05CC37BC2709CB3C009C20B0 /* UACalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UACalendar.h; sourceTree = "<group>"; };
+		05CC37BD2709CB3C009C20B0 /* UATextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UATextAttribute.m; sourceTree = "<group>"; };
+		05CC37BE2709CB3C009C20B0 /* UADateMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UADateMgr.h; sourceTree = "<group>"; };
+		05CC37BF2709CB3C009C20B0 /* UAItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAItemView.h; sourceTree = "<group>"; };
+		05CC37C02709CB3C009C20B0 /* UADate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UADate.m; sourceTree = "<group>"; };
+		05CC37C12709CB3C009C20B0 /* UAServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAServerRequest.h; sourceTree = "<group>"; };
+		05CC37C32709CB3C009C20B0 /* FlippedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlippedView.m; sourceTree = "<group>"; };
+		05CC37C42709CB3C009C20B0 /* RERecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RERecord.m; sourceTree = "<group>"; };
+		05CC37C52709CB3C009C20B0 /* WinResultCntrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinResultCntrl.m; sourceTree = "<group>"; };
+		05CC37C62709CB3C009C20B0 /* REHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REHeaderView.m; sourceTree = "<group>"; };
+		05CC37C72709CB3C009C20B0 /* WinResult.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinResult.xib; sourceTree = "<group>"; };
+		05CC37C92709CB3C009C20B0 /* REItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REItemView.h; sourceTree = "<group>"; };
+		05CC37CA2709CB3C009C20B0 /* REMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMainView.m; sourceTree = "<group>"; };
+		05CC37CB2709CB3C009C20B0 /* FlippedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlippedView.h; sourceTree = "<group>"; };
+		05CC37CC2709CB3C009C20B0 /* WinResultCntrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinResultCntrl.h; sourceTree = "<group>"; };
+		05CC37CD2709CB3C009C20B0 /* RERecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RERecord.h; sourceTree = "<group>"; };
+		05CC37CE2709CB3C009C20B0 /* REMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMainView.h; sourceTree = "<group>"; };
+		05CC37CF2709CB3C009C20B0 /* REItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REItemView.m; sourceTree = "<group>"; };
+		05CC37D02709CB3C009C20B0 /* REHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REHeaderView.h; sourceTree = "<group>"; };
+		05CC37EB2709CBE5009C20B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyHealthCalendar/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		05CC37EC2709CBE5009C20B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyHealthCalendar/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05CC37832709CA5E009C20B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CC377D2709CA5E009C20B0 = {
+			isa = PBXGroup;
+			children = (
+				05CC37882709CA5E009C20B0 /* MyHealthCalendar */,
+				05CC37872709CA5E009C20B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05CC37872709CA5E009C20B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05CC37862709CA5E009C20B0 /* MyHealthCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05CC37882709CA5E009C20B0 /* MyHealthCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				05CC37EB2709CBE5009C20B0 /* AppDelegate.h */,
+				05CC37EC2709CBE5009C20B0 /* AppDelegate.m */,
+				05CC37A32709CB3C009C20B0 /* BloodPressure */,
+				05CC37C22709CB3C009C20B0 /* BloodPressure2 */,
+				05CC379A2709CB3C009C20B0 /* category */,
+				05CC37AF2709CB3C009C20B0 /* UACalendar */,
+				05CC378C2709CA5F009C20B0 /* Assets.xcassets */,
+				05CC378E2709CA5F009C20B0 /* MainMenu.xib */,
+				05CC37912709CA5F009C20B0 /* Info.plist */,
+				05CC37922709CA5F009C20B0 /* main.m */,
+				05CC37942709CA5F009C20B0 /* MyHealthCalendar.entitlements */,
+			);
+			path = MyHealthCalendar;
+			sourceTree = "<group>";
+		};
+		05CC379A2709CB3C009C20B0 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				05CC379B2709CB3C009C20B0 /* NSBezierPath+MyBezierPath.m */,
+				05CC379C2709CB3C009C20B0 /* NSColor+MyColor.m */,
+				05CC379D2709CB3C009C20B0 /* NSTextField+MyTextField.h */,
+				05CC379E2709CB3C009C20B0 /* CAShapeLayer+MyShapeLayer.h */,
+				05CC379F2709CB3C009C20B0 /* NSBezierPath+MyBezierPath.h */,
+				05CC37A02709CB3C009C20B0 /* NSColor+MyColor.h */,
+				05CC37A12709CB3C009C20B0 /* CAShapeLayer+MyShapeLayer.m */,
+				05CC37A22709CB3C009C20B0 /* NSTextField+MyTextField.m */,
+			);
+			path = category;
+			sourceTree = SOURCE_ROOT;
+		};
+		05CC37A32709CB3C009C20B0 /* BloodPressure */ = {
+			isa = PBXGroup;
+			children = (
+				05CC37A42709CB3C009C20B0 /* BPButton.m */,
+				05CC37A52709CB3C009C20B0 /* UAAcceptButton.m */,
+				05CC37A62709CB3C009C20B0 /* WinDataEntryCntrl.h */,
+				05CC37A72709CB3C009C20B0 /* BPValueView.m */,
+				05CC37A92709CB3C009C20B0 /* BPButton.h */,
+				05CC37AA2709CB3C009C20B0 /* UAAcceptButton.h */,
+				05CC37AB2709CB3C009C20B0 /* WinDataEntry.xib */,
+				05CC37AD2709CB3C009C20B0 /* BPValueView.h */,
+				05CC37AE2709CB3C009C20B0 /* WinDataEntryCntrl.m */,
+			);
+			path = BloodPressure;
+			sourceTree = SOURCE_ROOT;
+		};
+		05CC37AF2709CB3C009C20B0 /* UACalendar */ = {
+			isa = PBXGroup;
+			children = (
+				05CC37B02709CB3C009C20B0 /* UACalendar.m */,
+				05CC37B12709CB3C009C20B0 /* UAView.h */,
+				05CC37B32709CB3C009C20B0 /* UADate.h */,
+				05CC37B42709CB3C009C20B0 /* UAItemView.m */,
+				05CC37B52709CB3C009C20B0 /* UATextAttribute.h */,
+				05CC37B62709CB3C009C20B0 /* UADateMgr.m */,
+				05CC37B72709CB3C009C20B0 /* UAServerRequest.m */,
+				05CC37B82709CB3C009C20B0 /* holiday.json */,
+				05CC37B92709CB3C009C20B0 /* UAConstants.h */,
+				05CC37BB2709CB3C009C20B0 /* UAView.m */,
+				05CC37BC2709CB3C009C20B0 /* UACalendar.h */,
+				05CC37BD2709CB3C009C20B0 /* UATextAttribute.m */,
+				05CC37BE2709CB3C009C20B0 /* UADateMgr.h */,
+				05CC37BF2709CB3C009C20B0 /* UAItemView.h */,
+				05CC37C02709CB3C009C20B0 /* UADate.m */,
+				05CC37C12709CB3C009C20B0 /* UAServerRequest.h */,
+			);
+			path = UACalendar;
+			sourceTree = SOURCE_ROOT;
+		};
+		05CC37C22709CB3C009C20B0 /* BloodPressure2 */ = {
+			isa = PBXGroup;
+			children = (
+				05CC37C32709CB3C009C20B0 /* FlippedView.m */,
+				05CC37C42709CB3C009C20B0 /* RERecord.m */,
+				05CC37C52709CB3C009C20B0 /* WinResultCntrl.m */,
+				05CC37C62709CB3C009C20B0 /* REHeaderView.m */,
+				05CC37C72709CB3C009C20B0 /* WinResult.xib */,
+				05CC37C92709CB3C009C20B0 /* REItemView.h */,
+				05CC37CA2709CB3C009C20B0 /* REMainView.m */,
+				05CC37CB2709CB3C009C20B0 /* FlippedView.h */,
+				05CC37CC2709CB3C009C20B0 /* WinResultCntrl.h */,
+				05CC37CD2709CB3C009C20B0 /* RERecord.h */,
+				05CC37CE2709CB3C009C20B0 /* REMainView.h */,
+				05CC37CF2709CB3C009C20B0 /* REItemView.m */,
+				05CC37D02709CB3C009C20B0 /* REHeaderView.h */,
+			);
+			path = BloodPressure2;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05CC37852709CA5E009C20B0 /* MyHealthCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CC37972709CA5F009C20B0 /* Build configuration list for PBXNativeTarget "MyHealthCalendar" */;
+			buildPhases = (
+				05CC37822709CA5E009C20B0 /* Sources */,
+				05CC37832709CA5E009C20B0 /* Frameworks */,
+				05CC37842709CA5E009C20B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHealthCalendar;
+			productName = MyHealthCalendar;
+			productReference = 05CC37862709CA5E009C20B0 /* MyHealthCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05CC377E2709CA5E009C20B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "権兵衛";
+				TargetAttributes = {
+					05CC37852709CA5E009C20B0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 05CC37812709CA5E009C20B0 /* Build configuration list for PBXProject "MyHealthCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05CC377D2709CA5E009C20B0;
+			productRefGroup = 05CC37872709CA5E009C20B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05CC37852709CA5E009C20B0 /* MyHealthCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05CC37842709CA5E009C20B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CC378D2709CA5F009C20B0 /* Assets.xcassets in Resources */,
+				05CC37902709CA5F009C20B0 /* MainMenu.xib in Resources */,
+				05CC37E82709CB3D009C20B0 /* WinResult.xib in Resources */,
+				05CC37DF2709CB3D009C20B0 /* holiday.json in Resources */,
+				05CC37D82709CB3D009C20B0 /* WinDataEntry.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05CC37822709CA5E009C20B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CC37E52709CB3D009C20B0 /* RERecord.m in Sources */,
+				05CC37E32709CB3D009C20B0 /* UADate.m in Sources */,
+				05CC37D22709CB3D009C20B0 /* NSColor+MyColor.m in Sources */,
+				05CC37E12709CB3D009C20B0 /* UAView.m in Sources */,
+				05CC37DA2709CB3D009C20B0 /* WinDataEntryCntrl.m in Sources */,
+				05CC37D52709CB3D009C20B0 /* BPButton.m in Sources */,
+				05CC37E92709CB3D009C20B0 /* REMainView.m in Sources */,
+				05CC37E72709CB3D009C20B0 /* REHeaderView.m in Sources */,
+				05CC37DE2709CB3D009C20B0 /* UAServerRequest.m in Sources */,
+				05CC37932709CA5F009C20B0 /* main.m in Sources */,
+				05CC37E42709CB3D009C20B0 /* FlippedView.m in Sources */,
+				05CC37D72709CB3D009C20B0 /* BPValueView.m in Sources */,
+				05CC37DC2709CB3D009C20B0 /* UAItemView.m in Sources */,
+				05CC37D42709CB3D009C20B0 /* NSTextField+MyTextField.m in Sources */,
+				05CC37D32709CB3D009C20B0 /* CAShapeLayer+MyShapeLayer.m in Sources */,
+				05CC37E22709CB3D009C20B0 /* UATextAttribute.m in Sources */,
+				05CC37D62709CB3D009C20B0 /* UAAcceptButton.m in Sources */,
+				05CC37DD2709CB3D009C20B0 /* UADateMgr.m in Sources */,
+				05CC37ED2709CBE5009C20B0 /* AppDelegate.m in Sources */,
+				05CC37EA2709CB3D009C20B0 /* REItemView.m in Sources */,
+				05CC37D12709CB3D009C20B0 /* NSBezierPath+MyBezierPath.m in Sources */,
+				05CC37DB2709CB3D009C20B0 /* UACalendar.m in Sources */,
+				05CC37E62709CB3D009C20B0 /* WinResultCntrl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05CC378E2709CA5F009C20B0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CC378F2709CA5F009C20B0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05CC37952709CA5F009C20B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		05CC37962709CA5F009C20B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05CC37982709CA5F009C20B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyHealthCalendar/MyHealthCalendar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyHealthCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikomokaru.MyHealthCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05CC37992709CA5F009C20B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyHealthCalendar/MyHealthCalendar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyHealthCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikomokaru.MyHealthCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05CC37812709CA5E009C20B0 /* Build configuration list for PBXProject "MyHealthCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CC37952709CA5F009C20B0 /* Debug */,
+				05CC37962709CA5F009C20B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CC37972709CA5F009C20B0 /* Build configuration list for PBXNativeTarget "MyHealthCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CC37982709CA5F009C20B0 /* Debug */,
+				05CC37992709CA5F009C20B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05CC377E2709CA5E009C20B0 /* Project object */;
+}
