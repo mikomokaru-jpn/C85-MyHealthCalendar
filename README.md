@@ -26,4 +26,6 @@ Server configuration
 * Web server 　Apache2.4 & PHP5.6
 * Database　MySQL5.7
 
+## Class structure diagram
+<img src="http://mikomokaru.sakura.ne.jp/data/02/calendar02.jpg" alt="calendar" title="diagram" width="300">
 
