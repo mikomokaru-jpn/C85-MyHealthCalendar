@@ -12,8 +12,11 @@ When you select a date, it will be surrounded by a blue border, so press Input B
 
 Enter blood pressure data by keyboard input or by clicking Number Button on Blood pressure Input Sheet. Turn on the confirmation flag, and execute Registration Button, so the entered data is registered in the database. The date on the calendar when the blood pressure has been entered is circled in red. If the confirmation flag is off and registered, the data is registered in the database, however it is treated as incomplete input.
 
+<img src="http://mikomokaru.sakura.ne.jp/data/02/calendarEntry.png" alt="calendar" title="Entry" width="300">
+
 ## Display Monthly Blood pressure List
 Click List Display Button to display a list of blood pressure for the month. Since blood pressure is graphed as a bar, your status can be grasped at a glance. If you have high blood pressure (above normal value), you will be warned by changing the color of the value and the graph.
 
+<img src="http://mikomokaru.sakura.ne.jp/data/02/calendarResult.png" alt="calendar" title="Result" width="300">
 
 
