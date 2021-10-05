@@ -19,4 +19,8 @@ Click List Display Button to display a list of blood pressure for the month. Sin
 
 <img src="http://mikomokaru.sakura.ne.jp/data/02/calendarResult.png" alt="calendar" title="Result" width="300">
 
-
+## Application design
+It is a client / server method. The application sends an HTTP request to the server, and the server returns JSON-formatted response data. The database is implemented in MySQL, and data is referenced and updated with PHP scripts.
+Server configuration
+・Web server 　Apache2.4 & PHP5.6
+・Database　MySQL5.7
