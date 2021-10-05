@@ -27,5 +27,5 @@ Server configuration
 * Database　MySQL5.7
 
 ## Class structure diagram
-<img src="http://mikomokaru.sakura.ne.jp/data/02/calendar02.jpg" alt="calendar" title="diagram" width="300">
+<img src="http://mikomokaru.sakura.ne.jp/data/02/calendar02.jpg" alt="calendar" title="diagram" width="400">
 
