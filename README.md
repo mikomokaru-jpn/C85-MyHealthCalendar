@@ -1,4 +1,4 @@
-## macOS C85-MyHealthCalendar
+## macOS_C_MyHealthCalendar
 
 ## Blood pressure management calendar
 Enter your daily blood pressure into the calendar to help your health.
